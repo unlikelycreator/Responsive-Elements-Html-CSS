@@ -1,27 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #eeeeee;
+    text-align: center;
+}
+
 li,
 a,
 button {
-    color: white;
+    color: rgb(43, 43, 43);
     font-weight: 500;
-    font-family: sans-serif;
+    font-family: monospace;
     text-decoration: none;
     font-size: 15px;
     list-style: none;
 }
 
 .logo {
-    color: white;
-    font-family: sans-serif;
+    color: rgb(24, 24, 24);
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    letter-spacing: 5px;
 }
 
 button {
-    background-color: white;
+    background-color: rgb(167, 167, 167);
     border: none;
     border-radius: 5px;
     width: 80px;
@@ -41,7 +48,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 3%;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 nav {
@@ -51,4 +58,17 @@ nav {
 ul {
     display: flex;
     justify-content: space-between;
+}
+
+p {
+    font-family: monospace;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    align-self: center;
+}
+
+.link {
+    color: cornflowerblue;
+    font-family: 'Lucida Sans';
 }
