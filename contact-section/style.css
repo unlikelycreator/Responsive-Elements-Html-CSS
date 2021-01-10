@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+
+.contact-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.contact-section .images-section {
+    width: 50%;
+    background-color: #6495ed;
+    background-image: url("contact.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.form-section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
+.form-section div {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    align-self: center;
+}
+
+input {
+    height: 40px;
+    padding-left: 10px;
+}
+
+textarea {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+button {
+    color: white;
+    width: 90%;
+    height: 40px;
+    background-color: black;
+    align-self: center;
+    border: 0;
+}
+
+img {
+    object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-section .images-section {
+        width: 100%;
+        height: 30%;
+    }
+    .form-section {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 50%;
+    }
+}
